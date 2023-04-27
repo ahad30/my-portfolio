@@ -1,6 +1,5 @@
 import React from "react"
-import {  Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
+
 
 function Home() {
   return (
@@ -11,11 +10,7 @@ function Home() {
           Hi, I'm [Your Name] and I'm a [Your Profession]. Here you can find
           more information about my skills, experience and previous projects.
         </p>
-        <p>
-          <Link to="/portfolio">
-            <Button variant="primary">View my Portfolio</Button>
-          </Link>
-        </p>
+      
       
     </div>
   );

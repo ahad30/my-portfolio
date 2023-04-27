@@ -1,13 +1,13 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Services from "./pages/Services";
-import Portfolio from "./pages/Portfolio";
-import Reviews from "./pages/Reviews";
-import Blog from "./pages/Blog";
-import Contact from "./pages/Contact";
+import Home from "./Home";
+import About from "./About";
+import Services from "./Services";
+import Portfolio from "./Portfolio";
+import Reviews from "./Reviews";
+import Blog from "./Blog";
+import Contact from "./Contact";
 
 function All() {
   return (
@@ -46,7 +46,7 @@ function All() {
         </Navbar>
 
         <Switch>
-          <Route exact path="/">
+          <Route path="/">
             <Home/>
           </Route>
           <Route path="/about">
