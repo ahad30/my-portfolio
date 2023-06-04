@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 
+import Sidebar from "./Components/sidebar/Sidebar";
 import Home from "./Components/home/Home";
 import About from "./Components/about/About";
 import Services from "./Components/services/Services";
@@ -13,9 +14,11 @@ import Contact from "./Components/contact/Contact";
 
 
 
-function App() {
+const App = () => {
   return (
-    <div className="App"> 
+    <>
+    <Sidebar/>
+    <main className="main"> 
       <Home/>
       <About/>
       <Services/>
@@ -25,7 +28,8 @@ function App() {
       <Testimonials/>
        <Blog/>
       <Contact/>
-    </div>
+    </main>
+    </>
   );
 }
 
