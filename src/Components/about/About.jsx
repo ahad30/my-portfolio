@@ -2,15 +2,19 @@ import React from 'react';
 import "./about.css";
 import Image from "../../assets/avatar-2.svg"
 import AboutBox from './AboutBox';
+import  resume from '../../assets/Resume.Ahad.PCIU.pdf';
 
 const About = () => {
+ 
+
+
   return (
     <section className="about container section" id="about"> <h2 className="section__title">About Me</h2>
       <div className="about__container grid"> <img src={Image} alt="" className="about__img" />
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">I am Mohiminul Islam Ahad, Web developer from Chattogram, Bangladesh. I have rich experience in web site design and building and customization, also I am good at UI/UX Design.</p>
-            <a href="" className="btn ">Download CV</a>
+            <a href={resume}  className="btn" download='resume' >Download CV</a>
           </div>
           <div className="about__skills grid">
             <div className="skills__data">
@@ -52,7 +56,6 @@ const About = () => {
  <AboutBox/>
     </section>
   );
-
 
 }
 

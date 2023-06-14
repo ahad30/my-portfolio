@@ -38,7 +38,7 @@ const Portfolio = () => {
 
               <span className="work__category">{category}</span>
               <h3 className="work__title">{title}</h3>
-              <a href="https://team-portfolio-ahad.netlify.app/" className="work__button">
+              <a href="https://demo-project-ahad.netlify.app" className="work__button">
                 <i className="icon-link work__button-icon"></i>
               </a>
 
