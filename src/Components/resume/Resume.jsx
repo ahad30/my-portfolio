@@ -47,8 +47,8 @@ const Resume = () => {
             <div className="resume-item">
               <div className="resume-item-heading">
                 <FontAwesomeIcon icon={faBriefcase} className="resume-icon" />
-                <h4>Frontend Developer</h4>
-                <p className="resume-date">2023 - Present</p>
+                <h4>Web Development Intern</h4>
+                <p className="resume-date">Jan'23-Jun'23</p>
               </div>
               <div className="resume-item-body">
                 <h5>Carriastic</h5>

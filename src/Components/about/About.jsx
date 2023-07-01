@@ -2,7 +2,7 @@ import React from 'react';
 import "./about.css";
 import Image from "../../assets/avatar-2.svg"
 import AboutBox from './AboutBox';
-import  resume from '../../assets/Resume.Ahad.PCIU.pdf';
+import  resume from '../../assets/Resume.Developer.Ahad.pdf';
 
 const About = () => {
  
@@ -14,7 +14,7 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">I am Mohiminul Islam Ahad, Web developer from Chattogram, Bangladesh. I have rich experience in web site design and building and customization, also I am good at UI/UX Design.</p>
-            <a href={resume}  className="btn" download='resume' >Download CV</a>
+            <a href={resume}  className="btn" download='Resume.Developer.Ahad.pdf' >Download CV</a>
           </div>
           <div className="about__skills grid">
             <div className="skills__data">

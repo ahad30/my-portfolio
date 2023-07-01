@@ -21,8 +21,8 @@ const data = [
   {
     id: 2,
     image: Image2,
-    title: "John Doe",
-    subtitle: "Prodcution Manager at Dribbble",
+    title: "Witkinson Henry",
+    subtitle: "IT head at Wipro",
     comment:
       "I enjoy working with the theme and learn so much and thats make the process fun and interesting, Good luck"
   },
@@ -33,9 +33,7 @@ const data = [
 const Testimonials = () => {
   return (
     <section className="testimonials container section">
-
       <h2 className="section__title">Client & Reviews</h2>
-
       <Swiper className="testimonials__container grid"
       modules={[ Pagination]}
       spaceBetween={30}
