@@ -12,6 +12,7 @@ const Menu = [
         image: Work1,
         title: "Project Management Illustration",
         category: "Design",
+        link: 'https://demo-project-ahad.netlify.app/'
 
     },
 
@@ -21,7 +22,7 @@ const Menu = [
         image: Work2,
         title: "Guest App Walk Through Screen",
         category: "Creative",
-
+        link: 'https://todo-list-ahad.netlify.app/'
     },
 
 
@@ -31,7 +32,7 @@ const Menu = [
         image: Work3,
         title: "Delivery App Wirefarm",
         category: "Branding",
-
+        link: 'https://resume-builder-ahad.netlify.app/'
     },
 
     {
@@ -40,7 +41,7 @@ const Menu = [
         image: Work4,
         title: "On Boarding Motivation",
         category: "Art",
-
+        link: ''
     },
 
         {
@@ -49,7 +50,7 @@ const Menu = [
         image: Work5,
         title: "IMAC Mockup Design",
         category: "Branding",
-
+        link: ''
     },
 
     {
@@ -58,7 +59,7 @@ const Menu = [
         image: Work6,
         title: "Game Store App Concept",
         category: "Creative",
-
+        link: ''
     }
 
 
