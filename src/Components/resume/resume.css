@@ -4,6 +4,11 @@
     animation: slide-in 2s ease-out backwards;
   }
 
+.resume-section h3{
+  font-weight: bold;
+  font-size: 20px;
+}  
+
   @keyframes slide-in {
     from {
       opacity: 0;
@@ -39,6 +44,10 @@
     font-weight: bold;
     margin-bottom: 10px;
   }
+
+  .resume-item-body h5{
+    font-size: medium;
+  } 
   
   
   .resume-item-heading p {
@@ -66,7 +75,7 @@
   }
 
 
-  @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
 .resume-section{
   grid-template-columns: 1fr;
@@ -78,5 +87,18 @@
   margin-inline-end: 0px;
 }
 
-
   }
+
+  @media only screen and (max-width: 1000px) {
+    .resume-left-col,.resume-right-col{
+      padding: 10px;
+    }
+    
+}
+
+@media only screen and (min-width: 820px) and (max-width: 890px) {
+  .resume-right-bottom{
+    margin-top: 52px;
+  }
+  
+}

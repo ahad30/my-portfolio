@@ -1,28 +1,28 @@
 import React from "react";
-import { Container} from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGraduationCap, faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import "./resume.css";
 
 const Resume = () => {
   return (
-    
-      <Container>
-<section className="resume container section" id="resume">
-      <h2 className="section__title">Resume</h2>
+
+    <Container>
+      <section className="resume container section" id="resume">
+        <h2 className="section__title">Resume</h2>
         <div className="resume-section grid">
           <div className="resume-left-col">
             <h3>Education</h3>
             <div className="resume-item">
               <div className="resume-item-heading">
                 <FontAwesomeIcon icon={faGraduationCap} className="resume-icon" />
-                <h4>Bachelor of Electrical Engineering</h4>
+                <h4>BSc( Electrical Engineering)</h4>
                 <p className="resume-date">2018 - 2022</p>
               </div>
               <div className="resume-item-body">
                 <h5>Port City International University</h5>
                 <p className="resume-item-description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Port City International University located at Chittagong is a new generation private university committed to excellence in higher education and research. 
                 </p>
               </div>
             </div>
@@ -36,7 +36,7 @@ const Resume = () => {
               <div className="resume-item-body">
                 <h5>Ispahani Public School & College</h5>
                 <p className="resume-item-description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+               IPSC is a private educational institution on Zakir Hossain Road in Chittagong. This college is one of the top most reputed colleges of Chittagong
                 </p>
               </div>
             </div>
@@ -53,12 +53,12 @@ const Resume = () => {
               <div className="resume-item-body">
                 <h5>Carriastic</h5>
                 <p className="resume-item-description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Carriastic basically a job placement platform for graduates and understudies, especially, focusing on their careers for ensuring job placement in the competitive job market.
                 </p>
               </div>
             </div>
 
-            <div className="resume-item">
+            <div className="resume-item resume-right-bottom">
               <div className="resume-item-heading">
                 <FontAwesomeIcon icon={faBriefcase} className="resume-icon" />
                 <h4>Software Developer</h4>
@@ -67,14 +67,14 @@ const Resume = () => {
               <div className="resume-item-body">
                 <h5>GAOTEK INC.</h5>
                 <p className="resume-item-description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                GAO Tek Inc. (www.gaotek.com) is a member of GAO Group of Companies, headquartered in New York City, USA & Toronto, Canada with a strong global presence.
                 </p>
               </div>
             </div>
           </div>
 
-    </div>
-    </section>
+        </div>
+      </section>
     </Container>
   );
 };
