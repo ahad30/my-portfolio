@@ -36,7 +36,7 @@ const Testimonials = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentTestimonial((prevTestimonial) => (prevTestimonial + 1) % testimonials.length);
-    }, 5000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, [testimonials.length])

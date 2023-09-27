@@ -12,7 +12,7 @@ import Image8 from '../../assets/database .png';
 const AboutBox = () => {
     return (
         <>
-        <section>
+        <section className='about__section'>
         <h2 className="section__title">Core Skills</h2>
         <div className="about__boxes grid">
             <div className="about__box">
