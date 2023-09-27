@@ -148,3 +148,35 @@
         justify-content: center;
     }
 }
+
+@media only screen and (min-width:770px) and (max-width:900px){
+
+    .work__title {
+        color: #fff;
+        font-size: var(--h3-font-size);
+        margin: 0.98rem;
+        padding: 1.25rem;
+        position: absolute;
+        top: 0.75rem;
+        left:  25px;
+        transform: translateY(30px);
+        transition: .3s;
+        opacity: 0;
+        
+    }
+
+    .work__description{
+        color: #1c0101;
+        font-size: var(--smaller-font-size);
+        margin: 0.98rem;
+        padding: 1.25rem;
+        position: absolute;
+        top: 3.5rem;
+        transform: translateY(30px);
+        transition: .3s;
+        opacity: 0;
+        text-align: center;
+    }
+
+   
+}

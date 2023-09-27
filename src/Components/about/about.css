@@ -109,22 +109,23 @@
 .about__boxes {
   grid-template-columns: repeat(4, 1fr);
   column-gap: 1.875rem;
-  margin-top: 4.25rem;
+  margin-top: -1.5rem;
 }
 
 .about__box {
   display: flex;
   column-gap: 1.5rem;
+  margin-top: 3rem;
 }
 
-.about__icon {
-  font-size: var(--h1-font-size);
-  color: #a1a1e9;
+.icon-img{
+  height: 41px;
+  width: 42px;
   animation: slide-in 2s ease-out forwards;
 }
 
 .about__title {
-  font-size: 1.875rem;
+  font-size: 1.5rem;
   animation: slide-in 2s ease-out forwards;
 }
 
@@ -178,15 +179,8 @@
   justify-content: center;
 }
 
-
-
-
-
-
-
-
-
-
-
+.icon-img{
+ margin-left: 3rem;
+}
 
 }

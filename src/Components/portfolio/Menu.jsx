@@ -1,7 +1,7 @@
 import Work1 from "../../assets/School.png";
 import Work2 from "../../assets/Resume-builder.png";
 import Work3 from "../../assets/Font-selector.png";
-import Work4 from "../../assets/work-4.svg";
+import Work4 from "../../assets/details.png";
 import Work5 from "../../assets/work-5.svg";
 import Work6 from "../../assets/work-6.svg";
 const Menu = [
@@ -42,16 +42,17 @@ const Menu = [
          styles of icons by category
         and also search by icons name. `,
         category: "Branding",
-        link: 'https://font-awsome-replica.netlify.app/'
+        link: 'https://icon-selector.netlify.app/'
     },
 
     {
 
         id: 4,
         image: Work4,
-        title: "Coming Soon...",
-        category: "Art",
-        link: ''
+        title: "Online-Marketing",
+        description:'This e-commerce website is a cutting-edge platform that leverages advanced frontend development techniques to provide customers with an exceptional shopping experience. With a sleek , this website offers a seamless and visually appealing interface.',
+        category: "Design",
+        link: 'https://online-shop-ahad.netlify.app/'
     },
 
         {
