@@ -137,6 +137,7 @@
 
 .about__title:hover{
   color:hsl(43, 100%,68%);
+  transition: all .3s;
 }
 
 .about__box:hover ,.icon-img{
