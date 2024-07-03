@@ -41,7 +41,7 @@ animation: slide-in 2s ease-out backwards;
     animation-iteration-count: infinite;
 }
 
-@keyframes headingAnimation {
+/* @keyframes headingAnimation {
     0% {
       transform: translateY(0);
       opacity: 1;
@@ -54,7 +54,7 @@ animation: slide-in 2s ease-out backwards;
       transform: translateY(0);
       opacity: 1;
     }
-  }
+  } */
 
 
 
