@@ -9,7 +9,7 @@ const Sidebar = () => {
     <>
   <aside className={toggle ? "aside show-menu" : "aside" }>
       <a href="#home" className="nav__logo">
-        < img src={Logo} alt="" />
+        <img src={Logo} alt="" />
       </a>
 
       <nav className="nav">
@@ -63,7 +63,7 @@ const Sidebar = () => {
       </nav>
 
    <div className="nav__footer">
-   <span className="copyright">&copy; 2023. </span>
+   <span className="copyright">&copy; 2024. </span>
    </div>
   </aside>
 

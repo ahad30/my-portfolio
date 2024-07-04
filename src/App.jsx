@@ -10,6 +10,7 @@ import Pricing from "./Components/pricing/Pricing";
 import Testimonials from  "./Components/testimonials/Testimonials";
 import Blog from "./Components/blog/Blog";
 import Contact from "./Components/contact/Contact";
+import Footer from "./Components/Footer/Footer";
 
 
 
@@ -27,6 +28,7 @@ const App = () => {
       <Testimonials/>
        <Blog/>
       <Contact/>
+     <Footer/>
     </main>
     </>
   );

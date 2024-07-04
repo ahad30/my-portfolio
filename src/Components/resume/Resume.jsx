@@ -22,7 +22,7 @@ const Resume = () => {
               <div className="resume-item-body">
                 <h5>Port City International University</h5>
                 <p className="resume-item-description">
-                Port City International University located at Chittagong is a new generation private university committed to excellence in higher education and research. 
+                  Port City International University located at Chittagong is a new generation private university committed to excellence in higher education and research.
                 </p>
               </div>
             </div>
@@ -36,7 +36,7 @@ const Resume = () => {
               <div className="resume-item-body">
                 <h5>Ispahani Public School & College</h5>
                 <p className="resume-item-description">
-               IPSC is a private educational institution on Zakir Hossain Road in Chittagong. This college is one of the top most reputed colleges of Chittagong
+                  IPSC is a private educational institution on Zakir Hossain Road in Chittagong. This college is one of the top most reputed colleges of Chittagong
                 </p>
               </div>
             </div>
@@ -47,13 +47,16 @@ const Resume = () => {
             <div className="resume-item">
               <div className="resume-item-heading">
                 <FontAwesomeIcon icon={faBriefcase} className="resume-icon" />
-                <h4>Web Development Intern</h4>
-                <p className="resume-date">Jan'23-Jun'23</p>
+                <h4>Frontend Developer</h4>
+                <p className="resume-date">Nov'23-Present</p>
               </div>
               <div className="resume-item-body">
-                <h5>Carriastic</h5>
+                <h5>Z-Eight Tech</h5>
                 <p className="resume-item-description">
-                Carriastic basically a job placement platform for graduates and understudies, especially, focusing on their careers for ensuring job placement in the competitive job market.
+                  Restful API development: Handling API’s for React.js intregation
+                  Collaborating with backend developers, and other team members to create
+                  interactive web applications and enhancing project efficiently
+                  TIme management ,handling pressure to deliver the project
                 </p>
               </div>
             </div>
@@ -61,13 +64,16 @@ const Resume = () => {
             <div className="resume-item resume-right-bottom">
               <div className="resume-item-heading">
                 <FontAwesomeIcon icon={faBriefcase} className="resume-icon" />
-                <h4>Software Developer</h4>
-                <p className="resume-date">2022-2023</p>
+                <h4>Web Developement Intern</h4>
+                <p className="resume-date">Mar'23- June'23</p>
               </div>
               <div className="resume-item-body">
-                <h5>GAOTEK INC.</h5>
+                <h5>Carriastic</h5>
                 <p className="resume-item-description">
-                GAO Tek Inc. (www.gaotek.com) is a member of GAO Group of Companies, headquartered in New York City, USA & Toronto, Canada with a strong global presence.
+                  Implementing user interface designs using HTML, CSS, Bootstrap
+                  JavaScript and Reactjs/Nodejs
+                  Collaborating with designers, developers, and other team members
+                  to create interactive web applications.
                 </p>
               </div>
             </div>
