@@ -87,7 +87,7 @@ const AboutBox = () => {
                     <h3 className="about__title">Redux</h3>
                     
                 </div>
-            </div>
+            </div>               
             <div className="about__box">
             <img src={Image10} alt="" className='icon-img'/>
                 <div>
