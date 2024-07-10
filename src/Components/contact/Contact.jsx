@@ -36,12 +36,12 @@ const Contact = () => {
         <form ref={form} onSubmit={sendEmail} className="contact__form">
           <div className="contact__form-group">
             <div className="contact__form-div">
-              <input type="text" name="to_name" className="contact__form-input"
+              <input required type="text" name="to_name" className="contact__form-input"
                 placeholder='Insert your name' />
             </div>
 
             <div className="contact__form-div">
-              <input type="email" name="from_email"  className="contact__form-input"
+              <input required type="email" name="from_email"  className="contact__form-input"
                 placeholder='Insert your email' />
             </div>
             </div>
@@ -52,7 +52,7 @@ const Contact = () => {
             </div> */}
 
             <div className="contact__form-div contact__form-area">
-          <textarea name="message"  id="" cols="30" rows="10" className='contact__form-input' placeholder='Write your message'>
+          <textarea required name="message"  id="" cols="30" rows="10" className='contact__form-input' placeholder='Write your message'>
           </textarea>
           </div>
         <div className='flex justify-end'>
