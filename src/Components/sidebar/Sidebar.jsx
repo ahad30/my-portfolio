@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './sidebar.css';
 import Logo from '../../assets/interface.svg';
+import { IoMdClose } from 'react-icons/io';
 
 const Sidebar = () => {
 
@@ -66,10 +67,13 @@ const Sidebar = () => {
    <span className="copyright">&copy; 2024. </span>
    </div>
   </aside>
-
+  <div className='block lg:hidden'>
 <div className= { toggle ? "nav__toggle nav__toggle-open" : "nav__toggle"}
 onClick={() => showMenu(!toggle)}>
-  <i className="icon-menu"></i>
+
+   
+     {toggle ? <IoMdClose size={25}/> : <i className="icon-menu"></i>}
+</div>
 </div>
 
     </>
