@@ -10,7 +10,7 @@ const Menu = [
 
         id: 1,
         image: Work1,
-        title: "Modern-School",
+        title: "Classified Ads",
         description: 'The Modern School Project is a web application designed to showcase a modern and interactive school website. It utilizes HTML, CSS, Bootstrap, and JavaScript to create a visually appealing and user-friendly interface for students, parents, and teachers.',
         category: "Design",
         link: 'https://demo-project-ahad.netlify.app/',
