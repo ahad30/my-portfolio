@@ -20,10 +20,9 @@ const Portfolio = () => {
       <div className="work__filters">
 
         <span className="work__item" onClick={() => setItems(Menu)}>Everything</span>
-        <span className="work__item" onClick={() => filterItem("Creative")}>Creative</span>
-        <span className="work__item" onClick={() => filterItem("Art")}>Art</span>
+        <span className="work__item" onClick={() => filterItem("Development")}>Development</span>
         <span className="work__item" onClick={() => filterItem("Design")}>Design</span>
-        <span className="work__item" onClick={() => filterItem("Branding")}>Branding</span>
+
       </div>
 
       <div className="work__container grid">
@@ -32,7 +31,7 @@ const Portfolio = () => {
           return (
             <div className="work__card" key={id}>
               <div className="work__thumbnail">
-                <img src={image} alt="" className="work__img" />
+                <img src={image} alt="" className="work__img h-[450px]  w-full" />
                 <div className="work__mask"></div>
               </div>
 

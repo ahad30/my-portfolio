@@ -77,12 +77,10 @@
 
 .work__title {
     color: #fff;
-    font-size: var(--h3-font-size);
-    margin: 0.98rem;
-    padding: 1.25rem;
+    font-size: var(--h3-font-size);   
     position: absolute;
     top: 3.75rem;
-    left:  55px;
+    left:  45px;
     transform: translateY(30px);
     transition: .3s;
     opacity: 0;
@@ -99,7 +97,7 @@
     transform: translateY(30px);
     transition: .3s;
     opacity: 0;
-    text-align: center;
+    text-align: left;
 }
 
 
