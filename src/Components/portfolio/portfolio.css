@@ -18,7 +18,7 @@
 }
 
 .work__container {
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     gap: 1.875rem;
     animation: slide-in 2s ease-out backwards;
 }
@@ -83,12 +83,11 @@
     left:  45px;
     transform: translateY(30px);
     transition: .3s;
-    opacity: 0;
-    
+    opacity: 0;    
 }
 
 .work__description{
-    color: #1c0101;
+    color: #ffffff;
     font-size: var(--smaller-font-size);
     margin: 0.98rem;
     padding: 1.25rem;

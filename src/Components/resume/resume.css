@@ -1,6 +1,7 @@
 .resume-section {
     margin-bottom: 50px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1fr);
+    row-gap: 1.875rem;
     animation: slide-in 2s ease-out backwards;
   }
 
@@ -62,9 +63,6 @@
     line-height: 1.6;
   }
   
-  .resume-left-col{
-    margin-inline-end: 30px;
-  }
 
   .resume-left-col, .resume-right-col{
   background-color: var(--container-color);
@@ -80,10 +78,6 @@
 .resume-section{
   grid-template-columns: 1fr;
   row-gap: 1.875rem;
-}
-
-.resume-left-col{
-  margin-inline-end: 0px;
 }
 
   }

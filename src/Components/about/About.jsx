@@ -2,7 +2,7 @@ import React from 'react';
 import "./about.css";
 import Image from "../../assets/avatar-2.svg"
 import AboutBox from './AboutBox';
-import resume from '../../assets/Resume.Developer.Ahad.pdf';
+import resume from '../../assets/Resume_Developer_Ahad.pdf';
 
 const About = () => {
 
@@ -14,7 +14,7 @@ const About = () => {
       <div className="about__container grid"> <img src={Image} alt="" className="about__img" />
         <div className="about__data">
           <div className="about__info">
-            <p className="about__description">Passionate MERN Stack/Frontend Developer with a strong background in creating visually appealing and user-friendly web applications. With several years of experience.Throughout my short career, I have successfully contributed to the development of various projects, from startups to enterprise-level applications. My strong problem-solving skills, adaptability, and effective communication enable me to deliver solutions that exceed client expectations.</p>
+            <p className="about__description">Passionate Web application Developer with a strong background in creating visually appealing and user-friendly web applications. With several years of experience.Throughout my short career, I have successfully contributed to the development of various projects, from startups to enterprise-level applications. My strong problem-solving skills, adaptability, and effective communication enable me to deliver solutions that exceed client expectations.</p>
             <a href={resume} className="btn " download='Resume.Developer.Ahad.pdf' >Download CV</a>
           </div>
 {/*           
