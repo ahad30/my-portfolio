@@ -15,7 +15,7 @@ const HeaderSocials = () => {
             <a href="https://www.instagram.com/" className="home__social-link" target="_blank" rel="noreferrer">
                  <i className="fa-brands fa-instagram"></i>
             </a>
-            <a href="www.linkedin.com/in/mohiminul-islam-ahad" className="home__social-link" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/mohiminul-islam-ahad/" className="home__social-link" target="_blank" rel="noreferrer">
                  <i className="fa-brands fa-linkedin"></i>
             </a>
 
