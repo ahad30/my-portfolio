@@ -8,6 +8,7 @@ import Work7 from "../../assets/Art&Craft.png";
 import Work8 from "../../assets/School.png";
 import Work9 from "../../assets/Work-9.png";
 import Work10 from "../../assets/Work-10.png";
+import Work11 from "../../assets/Work-11.png";
 
 
 const Menu = [
@@ -47,7 +48,7 @@ download key by excel or csv
 
   {
     id: 4,
-    image: Work10,
+    image: Work11,
     title: "Business Management(Under development)",
     description: `Authentication System, POS system,ecommerce type product management, warehouse management, setting different businesses,Report CSV and PDF Export, Admin and user dashboard, sales management, purchase management etc.
     [Credintials : Email: b@gmail.com pass: admin123]`,
