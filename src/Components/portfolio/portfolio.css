@@ -140,7 +140,7 @@
     }
 
     .work__container {
-        grid-template-columns: 310px;
+        grid-template-columns: 100%;
         row-gap: 1.875rem;
         justify-content: center;
     }
@@ -173,7 +173,5 @@
         transition: .3s;
         opacity: 0;
         text-align: center;
-    }
-
-   
+    }   
 }

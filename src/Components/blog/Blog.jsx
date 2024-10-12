@@ -9,6 +9,7 @@ const Blog = () => {
     <section className="blog container section" id="blog">
       <h2 className="section__title">Certifications</h2>
       <div className="blog__container grid">
+      
         <div className="blog__card">
           <div className="blog__thumb">
             {/* <a href="#"><span className="blog__category">Reviews</span></a> */}

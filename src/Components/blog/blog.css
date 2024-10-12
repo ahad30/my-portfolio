@@ -66,3 +66,11 @@ font-size: var(--small-font-size);
         justify-content: center;
     }
     }
+
+@media only screen and (min-width:770px) and (max-width:900px) {
+    .blog__container{
+        grid-template-columns: 500px;
+        row-gap: 1.875rem;
+        justify-content: center;
+    }
+    }
