@@ -58,7 +58,7 @@ const Portfolio = () => {
               </p>
 
               <a href={link} target="_blank" rel="noopener noreferrer">
-                <button disabled={id === 5} className="work__button disabled:cursor-not-allowed">
+                <button disabled={id === 4} className="work__button disabled:cursor-not-allowed">
                   <i className="icon-link work__button-icon"></i>
                 </button>
               </a>
