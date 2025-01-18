@@ -53,12 +53,12 @@ const Portfolio = () => {
 
               <span className="work__category">{category}</span>
               <h3 className="work__title">{title}</h3>
-              <p className={`work__description ${id === 1 && '!text-red-600 !font-bold'}`}>
+              <p className={`work__description ${id === 1 && 'text-justify text-sm'}`}>
                 {description}
               </p>
 
               <a href={link} target="_blank" rel="noopener noreferrer">
-                <button disabled={id === 1} className="work__button disabled:cursor-not-allowed">
+                <button disabled={id === 5} className="work__button disabled:cursor-not-allowed">
                   <i className="icon-link work__button-icon"></i>
                 </button>
               </a>
